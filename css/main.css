@@ -1,0 +1,91 @@
+/*****BASE STYLES*****/
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/*****GRID*****/
+.full-width {
+  width:1200px;
+  margin: 0 auto;
+}
+.half-width {
+  width:600px;
+  float:left;
+}
+.third-width {
+  width:300px;
+  float:left;
+}
+/*****HEADER*****/
+.hero_image {
+  position:absolute;
+  max-width: 100%;
+  right: 0;
+  margin-right: 200px;
+
+}
+.hero_image-wrapper {
+  position:relative;
+  text-align:center;
+  color:white;
+  overflow:hidden;
+  height:700px;
+  padding-right: 70px;
+  border-right-style: solid;
+  border-right: thick double black;
+}
+.top-left {
+  position: absolute;
+  top: 200px
+  left: 16px;
+}
+span {
+  color:white;
+  font-size: 70px;
+  padding: 300px;
+  font-family: 'Mrs Sheppards', cursive;
+}
+nav {
+    float: right;
+    padding: 0px 40px;
+    font-weight: bold;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    color: black;
+    padding-left: 40px;
+}
+/*****BOTTOMLINKS*****/
+<style>
+a:link {
+  color:black;
+  background-color:transparent;
+  text-decoration:none;
+}
+a:visited {
+  color:pink;
+  text-decoration:none;
+}
+a:hover {
+  color: red;
+  text-decoration:line-through;
+}
+</style>
+h2 {
+  font-size: 36px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/*****ABOUT*****/
+contact h3 {
+  color:red;
+}
+
+/*****WORK*****/
+.back {
+  background-color: black;
+}
+/*****CONTACT*****/
